@@ -7,3 +7,13 @@
           </swiper-item>
         </block>
       </swiper>
+      <!-- 小程序数据绑定 -->
+  <view>{{name}}</view>
+  <!-- 2. 列表展示 -->
+  <view>{{students[0].name}}</view>
+  <view class="list" wx:for="{{students}}" wx:key="item">{{item.name}}</view>
+  <!-- 3. 事件监听 -->
+  <view> 当前计数：{{counter}}</view>
+
+  <button size="mini" bindtap="handleBtenClick">+</button>
+   <button size="mini" bindtap="handleSubtraction">-</button>

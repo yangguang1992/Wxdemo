@@ -111,3 +111,9 @@ button:last-child{
 .page-foot{
   margin-top: 50rpx;
 }
+
+.list{
+  padding: 10rpx;
+  background: #1AAD19;
+  left: 10px
+}
